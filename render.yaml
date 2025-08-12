@@ -2,6 +2,6 @@ services:
   - type: web
     name: compressor-picker-bot
     env: python
-    plan: free
-    buildCommand: "pip install -r requirements.txt"
-    startCommand: "python main.py"
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py
+"""
